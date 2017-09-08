@@ -10,7 +10,7 @@
         "lint": "echo \"Error: no lint... minimal project\" && exit 1",
         "e2e": "echo \"Error: no e2e... minimal project\" && exit 1",
         "ghPages":
-            "ng build -bh /DataSample-AngularV4/ --prod -bo && git commit -a -m updateForghPages && git subtree push --prefix dist origin gh-pages"
+            "ng build -bh /DataSample-AngularV4/ --prod --build-optimizer && git commit -a -m updateForghPages && git subtree push --prefix dist origin gh-pages"
     },
     "private": true,
     "dependencies": {
